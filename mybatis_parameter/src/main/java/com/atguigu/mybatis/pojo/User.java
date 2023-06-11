@@ -1,4 +1,4 @@
-package com.atguigu.mybatis.mapper.pojo;
+package com.atguigu.mybatis.pojo;
 
 public class User {
     private Integer id;
