@@ -6,11 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring_helloworld" />
+        <module name="spring_annotation" />
+        <module name="spring_mvc_boot" />
         <module name="mybatis_helloworld" />
+        <module name="spring_mvc_hello" />
+        <module name="mybatis_parameter" />
+        <module name="spring_ioc_xml" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mybatis_helloworld" target="8" />
+      <module name="mybatis_parameter" target="8" />
+      <module name="spring_annotation" target="8" />
+      <module name="spring_helloworld" target="8" />
+      <module name="spring_ioc_xml" target="8" />
+      <module name="spring_mvc_boot" target="1.7" />
+      <module name="spring_mvc_hello" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring_mvc_boot" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package com.atguigu.mybatis.test;
+package com.atguigu.mybatis.mapper.test;
 
 import com.atguigu.mybatis.mapper.UserMapper;
 import com.atguigu.mybatis.pojo.User;

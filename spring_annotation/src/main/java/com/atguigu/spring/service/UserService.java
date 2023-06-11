@@ -1,2 +1,5 @@
-package com.atguigu.spring.service;public interface UserService {
+package com.atguigu.spring.service;
+
+public interface UserService {
+    void saveUser();
 }

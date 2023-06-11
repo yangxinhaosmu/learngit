@@ -1,2 +1,8 @@
-package com.atguigu.controller;public class HelloController {
+package com.atguigu.controller;
+
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HelloController {
 }
